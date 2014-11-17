@@ -89,6 +89,8 @@ Username & password pairs for the user's that belongs to the main categories of 
 		Username: instructor
 		Password: passsword
 
+<img scr="https://raw.githubusercontent.com/anandafit/uni-portal/master/screen.shots/Screenshot%20from%202014-06-28%2013:37:43.png"></img>
+
 
 
 

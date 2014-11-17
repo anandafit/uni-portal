@@ -43,6 +43,7 @@ administrator must approve it. Students are allowed sit for exam and instructors
 ###Installation
 Please do the following steps setup the application.
 1. Enalble mod_rewrite - on a linux machine please issue following instructions
+
 	$sudo a2enmod rewrite
 	$sudo /etc.init.d/apache2 restart
 	$sudo vim /etc/apache2/sites-available
