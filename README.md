@@ -38,6 +38,57 @@ Administrator should be able to manage all users. In particular, the Administrat
 administrator must approve it. Students are allowed sit for exam and instructors are allowed to create and mark papers, only once the approval is given. If an application rejected, relevant data should be deleted from the database.  
 
 
+##Installation & User logins of Proposed solution
+
+#Installation
+Please do the following steps setup the application.
+1. Enalble mod_rewrite - on a linux machine please issue following instructions
+	$ sudo a2enmod rewrite
+	$ sudo /etc.init.d/apache2 restart
+
+	$ sudo vim /etc/apache2/sites-available
+
+2. Update the followings
+	Options Indexs FollowSymlinks Multiviews
+	AllowOverride None
+	Order allow,deny
+	allow from all	
+	
+	to	
+	Options Indexs FollowSymlinks Multiviews
+	AllowOverride all
+	Order allow,deny
+	allow from all
+
+3. Extract attached file to /var/www/ in a linux machine or htdocs/ folder  in Windows machine if you are using Xampp
+
+4. Please find the uniprotal.sql script that holds all the database tables required for the application, execute it by creating a new database called uniprotal inside MySQL
+
+5. Please provide following file permission to application/codebase/assets/ folder
+	chmod -R 777 files/tmp/
+
+6. Locate the following two config files and update the following parameters
+	application/config/config.php
+		$config['base_url']
+	application/config/database.php
+		hostname
+		user
+		password
+		database
+
+#System Login info
+Username & password pairs for the user's that belongs to the main categories of the users.
+	Student
+		Username: student
+		Password: 12345
+	Teacher
+		Username: teacher
+		Password: 12345
+	Coordinator
+		Username: instructor
+		Password: passsword
+
+
 
 
 

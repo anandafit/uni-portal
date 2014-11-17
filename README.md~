@@ -33,7 +33,9 @@ Functions that should be provided by the System
 		ii) Once the lecturer enters the student’s registration number, the paper with provided answers must be loaded. MCQs must be automatically marked. Short answer questions are marked by the lecturer. The loaded paper should include facilities for assigning marks for Short answer questions and then sum them up along with automatically marked MCQs. 
 
 3. Administrator
-Administrator should be able to manage all users. In particular, the Administrator should be able to assign courses for instructors. Once a student or instructor submitted an application, administrator must approve it. Students are allowed sit for exam and instructors are allowed to create and mark papers, only once the approval is given. If an application rejected, relevant data should be deleted from the database.  
+
+Administrator should be able to manage all users. In particular, the Administrator should be able to assign courses for instructors. Once a student or instructor submitted an application, 
+administrator must approve it. Students are allowed sit for exam and instructors are allowed to create and mark papers, only once the approval is given. If an application rejected, relevant data should be deleted from the database.  
 
 
 
