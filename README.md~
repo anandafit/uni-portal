@@ -1,4 +1,4 @@
-##Domain Overview
+##System requirement
 
 The intended users of the system are prospective undergraduate students and lecturers of the Faculty of Science. Prospective students should register for an examination by filling an online application given at the end of the assignment. 
 Assume that undergraduate studies will be offered in eight subjects: Botany, Chemistry, Computer Science, Geology, Mathematics, and Molecular biology, Physics, Statistics and Zoology. For each subject a collection of courses are offered in each of the two semesters. Registered students could be able to sit for any examination conducted for any semester. Generally, there are multiple examinations per course per semester. Your system must facilitate students to select any of such exams. When students are sitting for an examination, answers must be automatically submitted at the end of the allowed time period so that students cannot work after that.

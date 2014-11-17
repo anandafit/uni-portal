@@ -1,4 +1,4 @@
-##Domain Overview
+##System requirement
 
 The intended users of the system are prospective undergraduate students and lecturers of the Faculty of Science. Prospective students should register for an examination by filling an online application given at the end of the assignment. 
 Assume that undergraduate studies will be offered in eight subjects: Botany, Chemistry, Computer Science, Geology, Mathematics, and Molecular biology, Physics, Statistics and Zoology. For each subject a collection of courses are offered in each of the two semesters. Registered students could be able to sit for any examination conducted for any semester. Generally, there are multiple examinations per course per semester. Your system must facilitate students to select any of such exams. When students are sitting for an examination, answers must be automatically submitted at the end of the allowed time period so that students cannot work after that.
@@ -33,7 +33,9 @@ Functions that should be provided by the System
 		ii) Once the lecturer enters the student’s registration number, the paper with provided answers must be loaded. MCQs must be automatically marked. Short answer questions are marked by the lecturer. The loaded paper should include facilities for assigning marks for Short answer questions and then sum them up along with automatically marked MCQs. 
 
 3. Administrator
-Administrator should be able to manage all users. In particular, the Administrator should be able to assign courses for instructors. Once a student or instructor submitted an application, administrator must approve it. Students are allowed sit for exam and instructors are allowed to create and mark papers, only once the approval is given. If an application rejected, relevant data should be deleted from the database.  
+
+Administrator should be able to manage all users. In particular, the Administrator should be able to assign courses for instructors. Once a student or instructor submitted an application, 
+administrator must approve it. Students are allowed sit for exam and instructors are allowed to create and mark papers, only once the approval is given. If an application rejected, relevant data should be deleted from the database.  
 
 
 
