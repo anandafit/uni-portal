@@ -1,0 +1,24 @@
+.modal-body{
+    min-height: 580px;
+}
+
+label.valid {
+    width: 24px;
+    background: url(../img/valid.png) center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.alert{
+    display: none;
+}
+
+.col-md-2, .col-md-10 {
+    width: 50%;
+    float: left;
+}
+
+.modal-header{
+    background-color: #000000;
+    color: #ffffff;
+}

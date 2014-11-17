@@ -1,0 +1,61 @@
+.error label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(assets/img/valid.png) center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.row h1{
+    margin-top: 0px;
+}
+
+.panel-primary > .panel-heading {
+    color: black;
+    background-color: transparent;
+    border-color: #808080;
+}
+
+.panel-primary {
+    border-color: #808080;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+/*data table css open*/
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+.hide-eara{
+    display: none;
+}
+/*data table css end*/
