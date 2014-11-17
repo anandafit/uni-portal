@@ -7,9 +7,9 @@ Functions that should be provided by the System
 
 	1. A home page for users to login and signing. If it is a signing display the application for users to fill.
 	2. The system should provide access to three types of users 
-	a. Undergraduate student.
-	b. An instructor
-	c. Administrator
+		a. Undergraduate student.
+		b. An instructor
+		c. Administrator
 	3. For each user, provide the following functionalities.
 
 1. Students
@@ -27,13 +27,10 @@ Functions that should be provided by the System
 	1. To view the list of students who have registered for a specific course.
 	2. To edit an examination paper for a given semester, subject, examination (quiz, mid-semester and end-semester) and a course code.
 	3. To view and mark exam answers submitted by a given student
-	4. To view results summary of a given course
-
-	Your system should not allow the undergraduate students and other instructors to view details of student marks. 
-
+	4. To view results summary of a given course. Your system should not allow the undergraduate students and other instructors to view details of student marks. 
 	5. To create examination papers and mark the answers provided by students. In this case, the following facilities are need
-	i) Facilities to create a paper by editing.
-	ii) Once the lecturer enters the student’s registration number, the paper with provided answers must be loaded. MCQs must be automatically marked. Short answer questions are marked by the lecturer. The loaded paper should include facilities for assigning marks for Short answer questions and then sum them up along with automatically marked MCQs. 
+		i) Facilities to create a paper by editing.
+		ii) Once the lecturer enters the student’s registration number, the paper with provided answers must be loaded. MCQs must be automatically marked. Short answer questions are marked by the lecturer. The loaded paper should include facilities for assigning marks for Short answer questions and then sum them up along with automatically marked MCQs. 
 
 3. Administrator
 Administrator should be able to manage all users. In particular, the Administrator should be able to assign courses for instructors. Once a student or instructor submitted an application, administrator must approve it. Students are allowed sit for exam and instructors are allowed to create and mark papers, only once the approval is given. If an application rejected, relevant data should be deleted from the database.  
