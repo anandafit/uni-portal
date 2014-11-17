@@ -40,7 +40,7 @@ administrator must approve it. Students are allowed sit for exam and instructors
 
 ##Installation & User logins of Proposed solution
 
-#Installation
+###Installation
 Please do the following steps setup the application.
 1. Enalble mod_rewrite - on a linux machine please issue following instructions
 	$ sudo a2enmod rewrite
@@ -76,7 +76,7 @@ Please do the following steps setup the application.
 		password
 		database
 
-#System Login info
+###System Login info
 Username & password pairs for the user's that belongs to the main categories of the users.
 	Student
 		Username: student
